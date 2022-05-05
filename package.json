@@ -4,17 +4,30 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sad1go0/redux.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "SaDi",
+    "email": "sayidullohabbasov0909@gmail.com",
+    "url": "https://github.com/sad1go0"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sad1go0/redux/issues"
   },
-  "homepage": "https://github.com/sad1go0/redux#readme"
+  "homepage": "https://github.com/sad1go0/redux#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
 }
